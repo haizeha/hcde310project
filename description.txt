@@ -1,0 +1,17 @@
+### Pseudo Code
+Step 1: Initialize HTML structure with header, search bar, and main content area.
+- Include a separate section for displaying detailed step-by-step recipes
+- Link external CSS file for styling
+
+Step 2:Define a function fetchCocktails
+- Make an HTTP GET request to www.thecocktaildb.com/api/json/v1/1/search.php?s= + "cocktail name"
+- Convert the response to JSON
+- If the response is successful: Display the cocktail recipe details on a new page
+- Else: Display an error message on a new page
+
+Step 3: Define a function displayCocktailDetails
+- Navigate to a detail page that shows ingredients list & instructions (if possible, cocktail image)
+
+Step 4: Apply CSS for a layout and design
+- Theme colors are orange and blue
+- Main font is baskerville

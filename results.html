@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filenmae='style.css') }}">
+</head>
+
+<body>
+    <h1>Results:</h1>
+    {% for cocktail in cocktails %}
+        <div>
+            <h2>{{ cocktail.strDrink }}</h2>
+            <img src="{{ cocktail.strDrinkThumb }}" alt="{{ cocktail.strDrink }}" width="200">
+            <h3>Ingredients:</h3>
+            <ul>
+                {% for i in range(1, 16) %}
+                    {% set ingredient = cocktail['strIngredient' +i|string] %}
+                    {% set measure = cocktail['strMeasure' + i|string] %}
+                    {% if ingredient %}
+                        <li>{{ measure }} {{ ingredient }}</li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <p><strong>Instructions:</strong> {{ cocktail.strInstructions }}</p>
+        </div>
+    {% endfor %}
+</body>
+</html>
