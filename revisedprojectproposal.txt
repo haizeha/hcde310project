@@ -1,0 +1,6 @@
+Initially, my project focused on developing a weather-based music recommendation system, designed to provide Seattle residents with music playlists depending on their moods and weather.
+However, after further consideration and exploration of APIs, I decided to pivot the project to focus on building a cocktail recipe website using the TheCocktailDB API.
+This shift allowed for a simpler but equally engaging user experience.
+The revised project is a user-friendly platform where individuals who are interested in cocktails can easily search for cocktail recipes by name.
+The website retrieves detailed cocktail information including ingredients, instructions, and an image.
+This transition reflects my decision to focus on a less complex project that emphasizes clean design and smooth functionality.

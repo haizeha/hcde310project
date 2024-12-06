@@ -1,0 +1,47 @@
+body {
+    color: #333;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    background-color: yellowgreen;
+}
+
+form {
+    margin-top: 50px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+h3, p, input, button {
+    font-family: 'Times New Roman', serif;
+}
+
+h1 {
+    color: deeppink;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    background-color: deeppink;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: mediumvioletred;
+}
+
+img {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
